@@ -1,0 +1,128 @@
+[
+    {
+        "college_name": "ABC University",
+        "college_photo": "https://images.unsplash.com/photo-1590579491624-f98f36d4c763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1443&q=80",
+        "college_rating": 4.5,
+        "research_count": 120,
+        "admission_date": "2023-09-01",
+        "research_works_in_details": "The university is known for its groundbreaking research in various fields such as computer science, biology, and environmental studies.",
+        "admission_process": "Applicants need to fill an online form and appear for an entrance exam.",
+        "events_details": "The college hosts various cultural festivals, seminars, and workshops throughout the year.",
+        "sports_facilities": {
+            "Football": {
+                "facilities": "Football field, training equipment, and coaching staff."
+            },
+            "Basketball": {
+                "facilities": "Indoor and outdoor basketball courts, and professional trainers."
+            },
+            "Swimming": {
+                "facilities": "Olympic-sized swimming pool and certified lifeguards."
+            }
+        }
+    },
+    {
+        "college_name": "XYZ College",
+        "college_photo": "https://images.unsplash.com/photo-1569447891824-7a1758aa73a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80",
+        "college_rating": 3.8,
+        "research_count": 80,
+        "admission_date": "2023-08-15",
+        "research_works_in_details": "The college actively conducts research projects in fields like engineering, chemistry, and social sciences.",
+        "admission_process": "Admission is based on merit, and candidates are selected through a counseling process.",
+        "events_details": "The college hosts an annual cultural fest and various student-led events.",
+        "sports_facilities": {
+            "Cricket": {
+                "facilities": "Cricket ground, practice nets, and cricket coaching."
+            },
+            "Badminton": {
+                "facilities": "Indoor badminton courts and professional coaches."
+            },
+            "Athletics": {
+                "facilities": "Running tracks, long jump pit, and experienced trainers."
+            }
+        }
+    },
+    {
+        "college_name": "PQR Institute of Technology",
+        "college_photo": "https://images.unsplash.com/photo-1588694450397-f0e42f4a2ea4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "college_rating": 4.2,
+        "research_count": 150,
+        "admission_date": "2023-09-10",
+        "research_works_in_details": "The institute is at the forefront of research in computer engineering, artificial intelligence, and robotics.",
+        "admission_process": "Admission process includes a written test and a personal interview.",
+        "events_details": "The college organizes technical symposiums, hackathons, and cultural events.",
+        "sports_facilities": {
+            "Volleyball": {
+                "facilities": "Volleyball courts and coaching for interested students."
+            },
+            "Table Tennis": {
+                "facilities": "Indoor table tennis arena with professional trainers."
+            },
+            "Chess": {
+                "facilities": "Dedicated chess room with regular tournaments."
+            }
+        }
+    },
+    {
+        "college_name": "LMN Arts College",
+        "college_photo": "https://images.unsplash.com/photo-1578736064666-bfe47265d6b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "college_rating": 4.0,
+        "research_count": 50,
+        "admission_date": "2023-07-30",
+        "research_works_in_details": "The college encourages research in various art forms, literature, and history.",
+        "admission_process": "Admission is merit-based, and candidates need to submit their academic records.",
+        "events_details": "The college hosts an annual cultural week and art exhibitions.",
+        "sports_facilities": {
+            "Cricket": {
+                "facilities": "Cricket ground and practice facilities for cricket enthusiasts."
+            },
+            "Football": {
+                "facilities": "Football field and coaching for interested students."
+            },
+            "Kabaddi": {
+                "facilities": "Kabaddi court and experienced coaches."
+            }
+        }
+    },
+    {
+        "college_name": "EFG Business School",
+        "college_photo": "https://images.unsplash.com/photo-1567762328132-9c6867ebb02e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1182&q=80",
+        "college_rating": 4.7,
+        "research_count": 90,
+        "admission_date": "2023-08-20",
+        "research_works_in_details": "The business school conducts extensive research in entrepreneurship, finance, and marketing.",
+        "admission_process": "Aspirants need to appear for a management entrance exam and a group discussion.",
+        "events_details": "The college organizes business conclaves, seminars, and corporate events.",
+        "sports_facilities": {
+            "Basketball": {
+                "facilities": "Indoor and outdoor basketball courts and professional coaches."
+            },
+            "Tennis": {
+                "facilities": "Tennis courts and coaching for interested students."
+            },
+            "Golf": {
+                "facilities": "Golf course and expert golf trainers."
+            }
+        }
+    },
+    {
+        "college_name": "RST Medical College",
+        "college_photo": "https://images.unsplash.com/photo-1510213491398-061d85984dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1175&q=80",
+        "college_rating": 4.3,
+        "research_count": 200,
+        "admission_date": "2023-09-15",
+        "research_works_in_details": "The medical college is engaged in significant medical research related to public health, diseases, and medical advancements.",
+        "admission_process": "Admission is through a national-level medical entrance exam.",
+        "events_details": "The college conducts medical conferences, workshops, and health awareness programs.",
+        "sports_facilities": {
+            "Athletics": {
+                "facilities": "Athletic tracks, field events facilities, and professional coaches."
+            },
+            "Basketball": {
+                "facilities": "Basketball courts and coaching for interested students."
+            },
+            "Cricket": {
+                "facilities": "Cricket ground and practice facilities for cricket enthusiasts."
+            }
+        }
+    }
+]
