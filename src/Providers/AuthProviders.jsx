@@ -56,7 +56,7 @@
 //             setLoading(false)
 //             // // Get and set Token
 //             // if (currentUser) {
-//             //     axios.post('http://localhost:5000/jwt', { email: currentUser.email })
+//             //     axios.post('https://edtech-university-application-server.vercel.app/jwt', { email: currentUser.email })
 //             //         .then(data => {
 //             //             const jwtToken = data.data.token
 //             //             localStorage.setItem('access-token', jwtToken)

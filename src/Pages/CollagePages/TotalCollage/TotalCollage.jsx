@@ -8,10 +8,7 @@ const TotalCollage = () => {
 
     const [collages] = useAllCollages()
 
-
-
-
-
+    console.log(collages);
     return (
 
         <div className="grid lg:grid-cols-3 gap-5">

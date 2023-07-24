@@ -1,13 +1,15 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 // import useAuth from "../../../Hooks/useAuth";
+// import useAuth from "../../../Hooks/useAuth";
 // import { AuthContext } from "../../../Providers/AuthProviders";
 
 
 const Header = () => {
 
-    // const { user, signInOutUser } = useContext(AuthContext)
+    // const { user, signInOutUser } = useAuth()
     const user = 'jansu'
+
 
     const handleLogOUt = () => {
         signInOutUser()

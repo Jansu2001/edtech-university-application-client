@@ -12,18 +12,17 @@ const AddmissionForm = () => {
 
     const onSubmit = (data) => {
         console.log(data);
-        const email = data.email;
-        const password = data.password;
-        console.log(email, password);
-
-
 
         const savedUser = {
             name: data.name,
             email: data.email,
-            password: data.password
+            subject: data.subject,
+            number: data.number,
+            address: data.address,
+            birthDate: data.birth - date,
+            photoURL: data.photoURL
         };
-        fetch('http://localhost:5000/all-users', {
+        fetch('https://edtech-university-application-server.vercel.app/addmission', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
@@ -33,12 +32,12 @@ const AddmissionForm = () => {
             .then(res => res.json())
             .then(data => {
                 if (data.insertedId) {
-                    console.log("user profile info updated");
+                    console.log("Your Addmission Is Successful");
 
                     reset();
                     Swal.fire(
-                        "Account Created!",
-                        "Your Account has been Registered.",
+                        "Addmission Success!",
+                        "Your Addmission has been Completed.",
                         "success"
                     );
                     navigate("/");
@@ -128,7 +127,7 @@ const AddmissionForm = () => {
                                     </label>
                                     <input
                                         type="text"
-                                        {...register("Address", { required: true })}
+                                        {...register("address", { required: true })}
                                         placeholder="Address"
                                         className="input input-bordered rounded-none"
                                     />
@@ -180,7 +179,7 @@ const AddmissionForm = () => {
                                     Go to Log in
                                 </Link>
                             </p>
-                            {/* <SocialLogin setSuccess={setSuccess} setError={setError}></SocialLogin> */}
+
                         </form>
                     </div>
                 </div>

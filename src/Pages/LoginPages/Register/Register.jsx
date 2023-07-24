@@ -5,12 +5,12 @@ import { useContext } from "react";
 
 import Swal from "sweetalert2";
 import { useState } from "react";
-// import { AuthContext } from "../../../Providers/AuthProviders";
+// import useAuth from "../../../Hooks/useAuth";
 
 const Register = () => {
     const [error, setError] = useState('')
     const [success, setSuccess] = useState('')
-    // const { signUpUser, displayUserInfo } = useContext(AuthContext);
+    // const { signUpUser, displayUserInfo } = useAuth()
     const {
         register,
         handleSubmit,
@@ -37,7 +37,7 @@ const Register = () => {
                             email: data.email,
                             password: data.password
                         };
-                        fetch('http://localhost:5000/all-users', {
+                        fetch('https://edtech-university-application-server.vercel.app/all-users', {
                             method: "POST",
                             headers: {
                                 'content-type': 'application/json'

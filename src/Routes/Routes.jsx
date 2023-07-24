@@ -13,6 +13,7 @@ import Home from "../Pages/HomePages/Home/Home";
 import Login from "../Pages/LoginPages/Login/Login";
 import Register from "../Pages/LoginPages/Register/Register";
 import MyCollage from "../Pages/MyCollage/MyCollage";
+import ErrorPage from "../Components/ErrorPage";
 
 
 
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <Main></Main>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',
@@ -45,16 +47,16 @@ const router = createBrowserRouter([
             {
                 path: `/collage-details/:id`,
                 element: <CollageDetails></CollageDetails>,
-                loader: ({ params }) => fetch(`http://localhost:5000/all-collages/${params.id}`)
+                loader: ({ params }) => fetch(`https://edtech-university-application-server.vercel.app/all-collages/${params.id}`)
             },
             {
                 path: '/addmission',
                 element: <Addmission></Addmission>
             },
             {
-                path: '/addmission-form',
-                element: <AddmissionForm></AddmissionForm>
-                // loader: ({ params }) => fetch(`http://localhost:5000/all-collages/${params.id}`)
+                path: '/addmission-form/:id',
+                element: <AddmissionForm></AddmissionForm>,
+                loader: ({ params }) => fetch(`https://edtech-university-application-server.vercel.app/all-collages/${params.id}`)
                 // TODO:
             },
             {
